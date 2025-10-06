@@ -19,7 +19,7 @@ indexpage:
       url: concept-gcnv.html
     - title: Início rápido
       url: task-quick-start.html
-  - title: Usar o Google Cloud NetApp Volumes
+  - title: Usar Google Cloud NetApp Volumes
     links:
     - title: Gerenciar volumes
       url: task-manage-volumes.html
@@ -27,7 +27,7 @@ indexpage:
     links:
     - title: Comunidade NetApp
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Blog do console NetApp
+    - title: Blog do NetApp Console
       url: https://cloud.netapp.com/blog
     - title: Webinars sobre nuvem
       url: https://cloud.netapp.com/events

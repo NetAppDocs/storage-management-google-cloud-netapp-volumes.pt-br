@@ -27,7 +27,7 @@ sidebar:
       url: "/task-set-up-gcnv.html"
     - title: Adicionar um sistema
       url: "/task-create-working-env.html"
-  - title: Usar o Google Cloud NetApp Volumes
+  - title: Usar Google Cloud NetApp Volumes
     entries:
     - title: Gerenciar volumes
       url: "/task-manage-volumes.html"

@@ -29,7 +29,7 @@ Você deve ter as seguintes informações disponíveis ao adicionar uma assinatu
 
 
 .Passos
-. No menu do NetApp Console, selecione *Armazenamento* e depois *Gerenciamento*.
+. No menu do NetApp Console , selecione *Armazenamento* e depois *Gerenciamento*.
 . Na página Sistemas, selecione *Adicionar Sistema* e selecione *Google Cloud Platform*.
 . Ao lado de * Google Cloud NetApp Volumes*, selecione *Descobrir*.
 . Forneça informações sobre sua assinatura do NetApp Volumes:
