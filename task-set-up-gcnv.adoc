@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: task-set-up-gcnv.html 
+keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+summary: O NetApp Console precisa de acesso à API do Google Cloud NetApp Volumes e das permissões corretas por meio de uma conta de serviço do Google Cloud. 
+---
+= Configurar o Google Cloud NetApp Volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O NetApp Console precisa das permissões corretas por meio de uma conta de serviço do Google Cloud.
+
+
+
+== Configurar uma conta de serviço
+
+Conclua as seguintes tarefas para que o NetApp Console possa acessar seu projeto do Google Cloud:
+
+* Se você ainda não tiver uma conta de serviço, crie uma nova.
+* Adicione o membro da conta de serviço ao seu projeto e atribua a ele funções específicas (permissões).
+* Crie e baixe um par de chaves para a conta de serviço usada para autenticação no Google.
+
+
+.Passos
+. No console do Google Cloud, https://console.cloud.google.com/iam-admin/serviceaccounts["vá para a página de contas de serviço"^] .
+. Clique em *Selecionar um projeto*, escolha seu projeto e clique em *Abrir*.
+. (Opcional) Para criar uma conta de serviço, faça o seguinte:
++
+.. Clique em *Criar conta de serviço*.
+.. Digite o nome da conta de serviço (nome de exibição amigável) e a descrição.
++
+O Google Cloud Console gera um ID de conta de serviço com base nesse nome.  Edite o ID se necessário - você não poderá alterá-lo posteriormente.
+
+.. Para definir os controles de acesso agora, clique em *Criar* e depois em *CONCLUÍDO* na parte inferior da página e continue para a próxima etapa.
+
+
+. Na página _IAM_ clique em *Adicionar* e preencha os campos na página _Adicionar Membros_:
++
+.. No campo Novos membros, insira o ID completo da conta de serviço.
++
+Por exemplo: \user1-service-account-gcnv@project1.iam.gserviceaccount.com
+
+.. Adicione uma destas funções:
++
+*** _Administrador de volumes do Google Cloud NetApp OU
+*** _Visualizador de volumes do Google Cloud NetApp
+
+
+.. Clique em *Salvar*.
+
+
+. Clique no nome da conta de serviço e, na página _Detalhes da conta de serviço_, clique em *Adicionar chave* e depois em *Criar nova chave*.
+. Selecione *JSON* como o tipo de chave e clique em *Criar*.
++
+Ao clicar em *Criar*, seu novo par de chaves pública/privada será gerado e baixado para seu sistema.  Ela serve como a única cópia da chave privada.  Armazene este arquivo com segurança porque ele pode ser usado para autenticação como sua conta de serviço.
+
+
+
+Para etapas detalhadas, consulte a documentação do Google Cloud:
+
+* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Funções e permissões do Google Cloud NetApp Volumes"^]
+* link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["Criação e gerenciamento de contas de serviço"^]
+* link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["Concedendo, alterando e revogando acesso a recursos"^]
+* link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["Criação e gerenciamento de chaves de conta de serviço"^]
+
