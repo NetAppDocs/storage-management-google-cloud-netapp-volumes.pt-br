@@ -40,9 +40,6 @@ Você deve ter as seguintes informações disponíveis ao adicionar uma assinatu
 .. Selecione o nome do seu projeto do Google Cloud.
 .. Selecione a região onde você deseja criar o sistema.  A região deve ser uma das regiões suportadas pelo Google Cloud NetApp Volumes.
 .. Selecione *Descobrir*.
-+
-image:screenshot_create_environment.png["Uma captura de tela da adição de credenciais para uma assinatura do Google Cloud NetApp Volumes ."]
-
 
 
 
