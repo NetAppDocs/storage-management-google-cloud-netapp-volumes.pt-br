@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-add-roles.html 
+keywords: setup, set up, add role, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+summary: O NetApp Console precisa que as funções corretas sejam atribuídas aos membros. 
+---
+= Atribua funções aos Google Cloud NetApp Volumes.
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você precisa atribuir as funções corretas aos membros no NetApp Console para começar a trabalhar com o Google Cloud NetApp Volumes. Para mais detalhes, vejalink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console para todos os serviços"^] .
+
+
+
+== Atribua funções ao membro da conta de serviço.
+
+. Faça login no https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^] .
+. Selecione *Administração* e depois *Identidade e acesso*.
+. Selecione o menu de açõesimage:screenshot_gallery_options.gif["Um ícone com três pontos."] Ao lado do membro ao qual você deseja atribuir uma função, selecione *Adicionar uma função*.
+. Para adicionar uma função, conclua as etapas na caixa de diálogo:
++
+.. Selecione a pasta ou o projeto: Escolha o nível da hierarquia de recursos para o qual o membro deve ter permissões.
++
+Ao selecionar uma pasta, o membro terá permissão para acessar todo o conteúdo dessa pasta.
+
+.. Na lista suspensa *Categoria*, selecione a categoria de função *Aplicativo*. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre funções de acesso"^].
+.. Na lista suspensa *Função*, selecione uma função que conceda ao membro permissões para os recursos associados à pasta ou ao projeto selecionado.
++
+* Important:* Você deve adicionar uma ou ambas as seguintes funções:
+
++
+*** _Administrador de volumes NetApp do Google Cloud_ OU
+*** _Visualizador de volumes NetApp do Google Cloud_
+
+
+.. Adicionar função: Se você deseja conceder acesso a pastas ou projetos adicionais dentro da sua organização, selecione *Adicionar função*, especifique outra pasta, projeto ou categoria de função e, em seguida, selecione uma categoria de função e a função correspondente.
+
+
+. Selecione *Adicionar novas funções*.
+
+
+.O que vem a seguir?
+link:task-create-working-env.html["Adicionar um sistema Google Cloud NetApp Volumes"].

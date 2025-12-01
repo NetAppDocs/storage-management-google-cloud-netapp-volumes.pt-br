@@ -18,6 +18,18 @@ Saiba o que há de novo no suporte do Google Cloud NetApp Volumes no NetApp Cons
 
 
 
+== 27 de novembro de 2025
+
+
+
+=== Alterações nas credenciais do Google Cloud Platform
+
+À medida que os clientes configuram e autorizam mais sistemas Google Cloud NetApp Volumes , a forma como as credenciais são gerenciadas mudou.
+
+As credenciais dos sistemas NetApp Volumes agora são armazenadas em um backend na nuvem do Google, como o serviço Cloud Key Management ou similar, e as credenciais de representação da conta de serviço são usadas ao criar um novo sistema.
+
+
+
 == 06 de outubro de 2025
 
 
