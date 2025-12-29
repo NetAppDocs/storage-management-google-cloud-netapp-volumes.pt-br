@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-quick-start.html 
-keywords: set up google cloud netapp volumes, quick start 
+keywords: set up google cloud netapp volumes, quick start,system 
 summary: Comece a usar o Google Cloud NetApp Volumes configurando o Google Cloud e criando um sistema. 
 ---
 = Fluxo de trabalho de introdução
