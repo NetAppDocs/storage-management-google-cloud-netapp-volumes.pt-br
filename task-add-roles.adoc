@@ -46,4 +46,4 @@ Ao selecionar uma pasta, o membro terá permissão para acessar todo o conteúdo
 
 
 .O que vem a seguir?
-link:task-create-working-env.html["Adicionar um sistema Google Cloud NetApp Volumes"].
+link:task-create-system.html["Adicionar um sistema Google Cloud NetApp Volumes"].

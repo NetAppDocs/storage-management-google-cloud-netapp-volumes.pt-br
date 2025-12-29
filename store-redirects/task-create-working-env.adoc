@@ -2,50 +2,7 @@
 permalink: task-create-working-env.html 
 redirect: storage-management-google-cloud-netapp-volumes/task-create-system.html 
 ---
-= Adicionar um sistema Google Cloud NetApp Volumes
-:hardbreaks:
+= 
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
 
-[role="lead"]
-Depois de configurar uma conta de serviço, adicione um sistema Google Cloud NetApp Volumes no NetApp Console para que você possa visualizar suas instâncias do Google Cloud NetApp Volumes .
-
-Os volumes de nuvem para esta assinatura são exibidos no sistema.
-
-
-NOTE: Se você tiver assinaturas e volumes em vários projetos do Google Cloud, precisará executar esta tarefa para cada projeto.
-
-.Antes de começar
-Você deve ter as seguintes informações disponíveis ao adicionar uma assinatura para cada projeto:
-
-* Endereço de e-mail da conta de serviço do Google
-* Nome do projeto
-
-
-.Passos
-. No menu do NetApp Console , selecione *Armazenamento* e depois *Gerenciamento*.
-. Na página Sistemas, selecione *Adicionar Sistema* e selecione *Google Cloud Platform*.
-. Ao lado de * Google Cloud NetApp Volumes*, selecione *Descobrir*.
-. Forneça informações sobre sua assinatura do NetApp Volumes:
-+
-.. Digite o nome do sistema que você deseja usar.
-.. Cole o endereço de e-mail da conta de serviço do Google associada. Para mais detalhes, vejalink:task-set-up-gcnv.html["Configurar uma conta de serviço"] .
-.. Selecione *Aplicar credenciais* para recuperar o nome e a região do projeto.
-.. Em *Nome do projeto*, selecione o nome do seu projeto do Google Cloud.
-.. Em *Região*, selecione a região onde deseja criar o sistema. A região deve ser uma das regiões suportadas pelo Google Cloud NetApp Volumes.
-.. Selecione *Descobrir*.
-
-
-
-
-.Resultado
-O Console exibe seu sistema Google Cloud NetApp Volumes .
-
-image:screenshot_gcnv_environment.png["Uma captura de tela do sistema Google Cloud NetApp Volumes Service."]
-
-.O que vem a seguir?
-link:task-manage-volumes.html["Veja seus volumes"] .
