@@ -89,7 +89,7 @@ Se você é novo na NetApp e não tem uma conta NSS, siga cada etapa abaixo.
 . No canto superior direito do Console, selecione o ícone Ajuda e selecione *Suporte*.
 . Localize o número de série do seu ID de conta na página de Registro de Suporte.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["Uma captura de tela do menu Ajuda onde Suporte é a primeira opção listada"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png["Uma captura de tela do menu Ajuda onde Suporte é a primeira opção listada"]
 
 . Navegar para https://register.netapp.com["Site de registro de suporte da NetApp"^] e selecione *Não sou um cliente registrado da NetApp *.
 . Preencha os campos obrigatórios (aqueles com asteriscos vermelhos).
@@ -143,7 +143,7 @@ Essas credenciais NSS estão associadas ao ID específico da sua conta do Consol
 .Passos
 . No canto superior direito do Console, selecione o ícone Ajuda e selecione *Suporte*.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Uma captura de tela do menu Ajuda onde Suporte é a primeira opção listada"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png["Uma captura de tela do menu Ajuda onde Suporte é a primeira opção listada"]
 
 . Selecione *Gerenciamento NSS > Adicionar conta NSS*.
 . Quando solicitado, selecione *Continuar* para ser redirecionado para uma página de login da Microsoft.
@@ -168,9 +168,9 @@ O mesmo é verdadeiro se você tiver contas NSS pré-existentes em nível de cli
 
 ** Após o login bem-sucedido, o NetApp armazenará o nome de usuário do NSS.
 +
-Este é um ID gerado pelo sistema que mapeia para seu e-mail. Na página *NSS Management*, você pode exibir seu e-mail doimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Um ícone de três pontos horizontais"] menu.
+Este é um ID gerado pelo sistema que corresponde ao seu e-mail. Na página *Gerenciamento de NSS*, você pode visualizar seu e-mail no image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Um ícone de três pontos horizontais"] menu.
 
-** Se você precisar atualizar seus tokens de credenciais de login, também há uma opção *Atualizar credenciais* noimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Um ícone de três pontos horizontais"] menu.
+** Se você precisar atualizar seus tokens de credencial de login, também há a opção *Atualizar Credenciais* no image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Um ícone de três pontos horizontais"] menu.
 +
 Usar esta opção solicitará que você faça login novamente. Observe que o token para essas contas expira após 90 dias. Uma notificação será publicada para alertá-lo sobre isso.
 
